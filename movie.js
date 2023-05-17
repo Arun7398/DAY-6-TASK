@@ -12,9 +12,9 @@ class movie {
         return(`The Title of the movie is ${this.title} and the studio is ${this.studio}.The Rating given to the flim is ${this.rating}`)
 }
 }
-    var movie1= new movie("Sardhar","Ish studio","11PG")    
-    var movie2= new movie("Casino Royale","Eon Productions","PG13")
-    var movie3= new movie("Arogara","Senthilmurugan Productions")  
+    var movie1= new movie("Petta","sun production","PG13")    
+    var movie2= new movie("viswasam","sathyajothi Productions","PG13")
+    var movie3= new movie("I","Lyca Productions")  
 console.log(movie3.getPG())   
 console.log(movie1.getPG())
 console.log(movie2.getPG())
